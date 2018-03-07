@@ -15,7 +15,7 @@ def getName():
 @app.route("/hello/<name>", methods=["GET"])
 def getNameMessage(name):
     """
-    Returns a message
+    Returns a hello message to the name included in the address
     """
     messageData = {
     "message": "Hello, there, {0}".format(name)
