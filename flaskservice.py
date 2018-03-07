@@ -18,7 +18,7 @@ def getNameMessage(name):
     Returns a hello message to the name included in the address
     """
     messageData = {
-    "message": "Hello, there, {0}".format(name)
+    "message": "Hello there, {0}".format(name)
                   }
     return jsonify(messageData)
 
