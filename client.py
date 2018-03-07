@@ -1,5 +1,10 @@
 import requests
 
+def main():
+    getName()
+    getHelloMessage()
+    getDistance()
+
 def getName():
     r = requests.get("http://vcm-3569.vm.duke.edu:5000/name")
     r_result = r.json()
